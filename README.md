@@ -23,3 +23,6 @@ python3 src/layer2_classifier.py
 
 ## License
 Apache 2.0
+
+## Draft is published here for reference
+https://dev.to/manvitha_potluri_edbd8b9b/why-single-layer-llm-guardrails-fail-a-dual-detection-pattern-on-aws-bedrock-4okj
