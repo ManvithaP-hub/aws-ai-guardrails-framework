@@ -1,4 +1,3 @@
-import anthropic
 import json
 import time
 import os
@@ -7,6 +6,7 @@ import re
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
 def evaluate_conversation_risk(conversation_history: list, current_message: str) -> dict:
+    import anthropic
     start = time.time()
 
     context = ""
